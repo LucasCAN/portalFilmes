@@ -4,7 +4,7 @@ const IMAGE_URL = "https://image.tmdb.org/t/p/w500";
 const BASE_URL = "https://www.themoviedb.org/movie/";
 
 const url =
-  "http://api.themoviedb.org/3/search/movie?api_key=1489704850ae98f0025316bad9a70b31&language=pt-BR";
+  "https://api.themoviedb.org/3/search/movie?api_key=1489704850ae98f0025316bad9a70b31&language=pt-BR";
 
 //selecionando elemento do DOM
 const searchButton = document.querySelector("#pesquisar");
