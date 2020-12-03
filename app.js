@@ -24,7 +24,7 @@ function movieSection(movies) {
       return `
         <div class="col-lg-3 col-md-6 destaques">   
             <img class="imagemDestaque" src=${IMAGE_URL + movie.poster_path} data-id=${movie.id}>
-            <p>Titulo: ${movie.title}</p>
+            <p>Título: ${movie.title}</p>
             <p>Data: ${movie.release_date}</p>
             <p>Sinopse: ${movie.overview}</p> 
         </div>`;
